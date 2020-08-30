@@ -1,0 +1,29 @@
+{
+  "name": "the-house-of-pleasures-book-app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@types/react-native": "0.63.10",
+    "jquery": "3.5.1",
+    "link-assets": "0.0.8",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-native": "0.63.2",
+    "react-native-scrollable-tab-view-prop-types": "0.7.5",
+    "react-native-web": "0.13.9",
+    "react-native-webview": "10.8.2",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
