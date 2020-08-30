@@ -19,10 +19,6 @@ for (let block of data.blocks) {
   blockById[block.blockId] = block;
 }
 
-window.scroll(function () {
-  ".container".css("opacity", 2 - window.scrollTop() / 500);
-});
-
 // find first block
 const startBlock = data.blocks.find((block) => block.startBlock);
 
@@ -89,7 +85,6 @@ const styles = StyleSheet.create({
     fontFamily: "Lora-Regular",
     userSelect: "text",
     fontSize: 20
-    //lineHeight: 15, //1.5rem
   },
 
   button: {
@@ -107,7 +102,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "#fff",
     textAlign: "center",
-    fontSize: 16,
+    fontSize: 18,
     fontFamily: "Lora-Regular"
   },
 
